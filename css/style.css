@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(241, 206, 163);
+    font-family: 'Ubuntu', sans-serif, Arial, Helvetica;
+}
+
+.container{
+
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    background-color: rgba(231, 140, 98, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+
+}
+
+
+h2,h3{
+
+    margin-top: 8px;
+}
+
+#bar{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: bisque;
+
+}
+
+progress{
+
+    display: flex;
+    height: 4px;
+    width: 0;
+            
+}
+
+#dot{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: -2px;
+    cursor: pointer;
+}
+
+.time{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.handle_input{
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 20px;
+
+}
+
+.btts{
+
+    width: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.volume_class{
+
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+#volume_icon{
+
+    width: 20px;
+    margin-right: 15px
+}
+
+#volume{
+
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 1px;
+    background-color: #0a0a0a;
+
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #0a0a0a;
+    cursor: pointer;
+    border-radius: 50%;
+}  
+
+

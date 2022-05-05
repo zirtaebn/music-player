@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/icon.png" type="image/png"> 
+    <title>Music Player</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2 id="tittle"> 
+            Bum Bum Tam Tam          
+        </h2>
+        <h3 id="artist">
+            Mc Fioti
+        </h3>
+        <audio src="./songs/bumbum.mp3" id="song" type="audio/mpeg"></audio>
+        <div id="bar">
+            <progress id="song_progress"  value="0" max="1">
+            </progress>
+            <div id="dot">        
+            </div>
+        </div> 
+        <div class="time">
+            <p id="start">0:00</p>
+            <p id="end"></p>
+        </div>
+        <div class="handle_input">
+            <img src="./images/randomoff.png" alt=""  class="btts" id="random">
+            <img src="./images/back.png" alt="" class="btts" id="back"> 
+            <img src="./images/play.png" alt="" class="btts" id="play_pause">
+            <img src="./images/next.png" alt="" class="btts"  id="next">
+            <img src="./images/repeatoff.png" alt=""  class="btts" id="repeat">
+        </div>
+        <div class="handle_input volume_class">
+            <img src="./images/unmuted.png" alt="" id="volume_icon" class="btts">
+            <input id="volume" type="range" value= "20">
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
